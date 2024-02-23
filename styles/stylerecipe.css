@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("/home/anomitroid/Desktop/css-exercises/odin-recipes/images/recipebg.jpeg");
+    background-position: center;
+} 
+
+div {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.heading {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: teal;
+}
+
+.pic {
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 100%;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(0, 113, 227);
+}
+
+.list {
+    text-align: center;
+    color: rgb(0, 113, 227);
+}
+.list > ul {
+    display: inline-block;
+}
+
+p, ol, ul {
+    text-align: center;
+    margin-top: 0px;
+    font-family: Arial;
+    width: 900px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+}
+
+ul {
+    width: 300px;
+    margin-left: 100px;
+}
